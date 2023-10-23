@@ -3,7 +3,7 @@ import { allMenus } from '@constants/menu';
 import { ProductsCategory } from './common/products-category';
 import type { Menu } from '@lib/types/menu';
 
-const menus: Readonly<Menu[]> = ['utama', 'topping', 'lainnya'];
+const menus: Readonly<Menu[]> = ['app', 'lainnya'];
 
 export function Menu(): string {
   return html`
@@ -15,11 +15,7 @@ export function Menu(): string {
       <div
         class="animated-element fade-bottom grid content-center gap-4 text-center"
       >
-        <h2 class="section-title">Menu</h2>
-        <p class="section-subtitle">
-          Bukan hanya menu favorit, kami juga menawarkan banyak menu pilihan
-          lainnya yang dapat dipilih dan di sajikan bersamaan dengan bubur
-        </p>
+        <h2 class="section-title">Our Works</h2>
       </div>
       <div class="flex flex-wrap items-center justify-center gap-4">
         ${menus.reduce((acc, menu, index) => {

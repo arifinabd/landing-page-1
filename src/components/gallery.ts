@@ -10,10 +10,6 @@ export function Gallery(): string {
     >
       <div class="animated-element fade-bottom grid gap-4 text-center">
         <h2 class="section-title">Galeri</h2>
-        <p class="section-subtitle">
-          Ini adalah cuplikan dari beberapa produk kami, yang pastinya dapat
-          kamu pesan melalui aplikasi kesayangan kamu
-        </p>
       </div>
       <div
         class="animated-element fade-bottom main-container fade-delay-100
@@ -23,11 +19,18 @@ export function Gallery(): string {
           (acc, { name, image }) =>
             acc +
             html`
+            <div
+              class="swiper animated-element fade-bottom main-container fade-delay-100 !pb-12"
+            >
               <img
                 class="viewable-image aspect-square w-full cursor-pointer rounded-md object-cover"
                 src="${image}"
                 alt="${name}"
               />
+              <p class="section-subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+              </p>
+            </div>
             `,
           ''
         )}

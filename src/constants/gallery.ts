@@ -2,27 +2,19 @@ type ProductImage = Record<'name' | 'image', string>;
 
 export const productImages: Readonly<ProductImage[]> = [
   {
-    name: 'Bubur Ayam Kampung',
-    image: '/assets/offer/offer-1.webp'
+    name: 'Mr. Ridwan',
+    image: '/assets/menu/team/m-ridwan.webp'
   },
   {
-    name: 'Bubur Polos',
-    image: '/assets/offer/offer-2.webp'
+    name: 'Magang',
+    image: '/assets/menu/team/fakfak.jpeg'
   },
   {
-    name: 'Telur Asin',
-    image: '/assets/menu/topping/topping-1.webp'
+    name: 'Menang',
+    image: '/assets/menu/team/lomba.jpg'
   },
   {
-    name: 'Telur Ayam Kampung',
-    image: '/assets/menu/topping/topping-2.webp'
+    name: 'Sweat',
+    image: '/assets/menu/team/cie.jpg'
   },
-  {
-    name: 'Ati Ampela',
-    image: '/assets/menu/topping/topping-3.webp'
-  },
-  {
-    name: 'Cakwe',
-    image: '/assets/menu/topping/topping-4.webp'
-  }
 ];

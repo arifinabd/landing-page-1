@@ -38,14 +38,14 @@
       @apply text-black #{!important};
     }
 
-    #nav-links-container {
-      .nav-link {
-        @apply hover:text-accent-orange/75 focus-visible:text-accent-orange/75 #{!important};
+    // #nav-links-container {
+    //   .nav-link {
+    //     @apply hover:text-accent-orange/75 focus-visible:text-accent-orange/75 #{!important};
 
-        &.active {
-          @apply text-accent-orange #{!important};
-        }
-      }
-    }
+    //     &.active {
+    //       @apply text-accent-orange #{!important};
+    //     }
+    //   }
+    // }
   }
 }

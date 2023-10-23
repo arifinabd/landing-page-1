@@ -3,12 +3,17 @@ import { html } from '@lib/utils';
 import { Navbar } from './navbar';
 import { Home } from './home';
 import { About } from './about';
-import { Favorite } from './favorite';
+import { Team } from './team';
 import { Menu } from './menu';
 import { Gallery } from './gallery';
 import { Contact } from './contact';
 import { Footer } from './footer';
 import { Modal } from './modal';
+
+
+var dataIg
+var dataLinkedin
+var dataLocationForModal
 
 function Index(): string {
   // prettier-ignore
@@ -17,8 +22,8 @@ function Index(): string {
     <main class="[&>*:not(:first-child):nth-child(odd)]:bg-main-background">
       ${Home()}
       ${About()}
-      ${Favorite()}
       ${Menu()}
+      ${Team()}
       ${Gallery()}
       ${Contact()}
     </main>

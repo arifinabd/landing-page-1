@@ -30,29 +30,29 @@ const homeIntersectPoint = document.getElementById(
   'home-intersect-point'
 ) as HTMLDivElement;
 
-const reservationModal = document.getElementById(
-  'reservation-modal'
-) as HTMLDialogElement;
+// const reservationModal = document.getElementById(
+//   'reservation-modal'
+// ) as HTMLDialogElement;
 
-const reservationModalBackdrop = document.getElementById(
-  'reservation-modal-backdrop'
-) as HTMLDivElement;
+// const reservationModalBackdrop = document.getElementById(
+//   'reservation-modal-backdrop'
+// ) as HTMLDivElement;
 
-const reservationModalForm = document.getElementById(
-  'reservation-modal-form'
-) as HTMLFormElement;
+// const reservationModalForm = document.getElementById(
+//   'reservation-modal-form'
+// ) as HTMLFormElement;
 
-const reservationModalOpenButton = document.getElementById(
-  'reservation-modal-open-button'
-) as HTMLButtonElement;
+// const reservationModalOpenButton = document.getElementById(
+//   'reservation-modal-open-button'
+// ) as HTMLButtonElement;
 
-const reservationModalCloseButton = document.getElementById(
-  'reservation-modal-close-button'
-) as HTMLButtonElement;
+// const reservationModalCloseButton = document.getElementById(
+//   'reservation-modal-close-button'
+// ) as HTMLButtonElement;
 
-const reservationModalSubmitButton = document.getElementById(
-  'reservation-modal-submit-button'
-) as HTMLButtonElement;
+// const reservationModalSubmitButton = document.getElementById(
+//   'reservation-modal-submit-button'
+// ) as HTMLButtonElement;
 
 const imageModal = document.getElementById('image-modal') as HTMLDialogElement;
 
@@ -101,16 +101,16 @@ export {
   imageModalLinks,
   hamburgerButton,
   toastModalTitle,
-  reservationModal,
+  // reservationModal,
   navLinksContainer,
   homeIntersectPoint,
   toastModalBackdrop,
   imageModalBackdrop,
   contactSubmitButton,
-  reservationModalForm,
+  // reservationModalForm,
   toastModalDescription,
-  reservationModalBackdrop,
-  reservationModalOpenButton,
-  reservationModalCloseButton,
-  reservationModalSubmitButton
+  // reservationModalBackdrop,
+  // reservationModalOpenButton,
+  // reservationModalCloseButton,
+  // reservationModalSubmitButton
 };

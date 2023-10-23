@@ -3,8 +3,8 @@ import { html } from '@lib/utils';
 type ValidSection =
   | 'home'
   | 'about'
-  | 'favorite'
-  | 'menu'
+  | 'portfolio'
+  | 'team'
   | 'gallery'
   | 'contact';
 
@@ -16,8 +16,8 @@ type NavLink = {
 const navLinks: Readonly<NavLink[]> = [
   { name: 'Home', href: '#home' },
   { name: 'About', href: '#about' },
-  { name: 'Favorite', href: '#favorite' },
-  { name: 'Menu', href: '#menu' },
+  { name: 'Portfolio', href: '#menu' },
+  { name: 'Team', href: '#team' },
   { name: 'Gallery', href: '#gallery' },
   { name: 'Contact', href: '#contact' }
 ];
@@ -33,8 +33,9 @@ export function Navbar(): string {
           <a
             class="smooth-tab rounded-md text-xl uppercase tracking-widest text-black lg:text-white"
             href="#"
-            >Bubur Nusantara
-          </a>
+            >
+            <img src="/assets/favicon.webp" alt="Vneu" height="42">
+            </a>
           <button id="hamburger-button" class="smooth-tab rounded-md p-1">
             <i class="container">
               <span class="top"></span>

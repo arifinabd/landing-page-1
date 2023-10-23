@@ -1,5 +1,4 @@
 import { html } from '@lib/utils';
-import { formatCurrency } from '@lib/format';
 import type { Menu } from '@lib/types/menu';
 import type { Product } from '@lib/types/product';
 
@@ -19,7 +18,7 @@ export function ProductsCategory({
       data-category="${category}"
     >
       ${products.reduce(
-        (acc, { name, price, image, description }) =>
+        (acc, { name, image, description }) =>
           acc +
           html`
             <div class="grid grid-cols-[auto,1fr] gap-4">
@@ -35,9 +34,6 @@ export function ProductsCategory({
                   ${name}
                 </h3>
                 <p>${description}</p>
-                <p class="font-poppins text-xl text-accent-orange sm:text-2xl">
-                  ${formatCurrency(price)}
-                </p>
               </div>
             </div>
           `,
