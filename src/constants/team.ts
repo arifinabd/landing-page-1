@@ -43,7 +43,7 @@ export const teams: Readonly<Team[]> = [
   },
   {
     name: 'Yohanes Wijaya',
-    position: 'PM',
+    position: 'PM (Polisi milter)',
     linkedin : 'https://www.linkedin.com/',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',

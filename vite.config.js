@@ -3,7 +3,7 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default {
   server: {
-    port: 80
+    port: 5173
   },
   plugins: [tsconfigPaths()]
 };
